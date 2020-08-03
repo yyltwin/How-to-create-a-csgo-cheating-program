@@ -1,143 +1,169 @@
 # 前言
 
-## 说明
+## 说明 :green_book:
 作者大学生一个,技术水平有限,而且学习方向也不是破解逆向相关的,有错误的地方还望大佬指点。
 
-## 再次说明
-教程以交流技术为主要目的,只学技术,可别卖挂啊!!!!
+## 再次说明 :rotating_light:
+教程以交流技术为主要目的,只学技术。
 
-## 针对对象
-教程针对的是刚刚入门相关技术的，所以会简单点。
+## 关于教程 :smile: 
+有很多东西作者是不懂的,毕竟作者当前水平也是处于[hello world]级别
 
-## 需要工具
-Cheat Engine(CE) - 找游戏内基址和偏移，略微懂一点就好。
+所以项目后续会放其他大佬的教程链接
 
-Visual Studio(VS) - 编写和编译C++代码，应该哪一个版本的都没问题
+## 当前教程 :zap:
+1.CSGO
 
-## 教程安排
-1.先看一下辅助软件的最终效果，看看结果满意不
+2.GTA5
 
-2.开始用CE查找游戏内的基址和偏移
+3.驱动
 
-3.编写代码实现游戏的hook相关操作
+## 未来计划 :pushpin:
+其它游戏相关教程
 
-4.使用imgui界面库实现菜单功能
+## 联系作者 :memo: 
+QQ : 2653290887
 
-5.编写代码实现游戏的透视和方框操作
+## 支持作者 :two_hearts:
+给我点个Star咯 ^_^ 让我有更多动力给你们分享更多教程
 
-6.编写代码实现游戏的自瞄操作
+## 防止游戏锁定电脑硬件
+[wmi-static-spoofer](https://github.com/Alex3434/wmi-static-spoofer)
 
-7.完善代码和添加一些其它的功能
+[hwid](https://github.com/btbd/hwid)
 
-8.讲解一下Osiris和Gladiatorcheatz-v2.1代码 -> 怎么实现人物辉光、怎么实现武器换肤、怎么实现大陀螺(anti aim)、怎么实现无限举报玩家.....
+[negativespoofer](https://github.com/SamuelTulach/negativespoofer)
 
-9.发现啥牛逼的技术再进行更新
+[mutant](https://github.com/SamuelTulach/mutante)
 
-## 星星
-教程拿走，给我点一个Star？哈哈哈
+## 驱动映射程序
+[kdmapper](https://github.com/z175/kdmapper)
 
-## 防锁机
+[kdmapper-1803-1903](https://github.com/alxbrn/kdmapper-1803-1903)
 
-[wmi-static-spoofer  --  告诉你怎么样防止游戏锁电脑硬件](https://github.com/Alex3434/wmi-static-spoofer)
+[kdmapper-1909](https://github.com/Dark7oveRR/kdmapper)
 
-[hwid  --  应用层和内核层一起防锁](https://github.com/btbd/hwid)
+[EfiGuard](https://github.com/Mattiwatti/EfiGuard)
 
-[negativespoofer  --  SMBIOS tables修改](https://github.com/SamuelTulach/negativespoofer)
+[DSEFix](https://github.com/hfiref0x/DSEFix)
 
-## 过检测
-[kdmapper  --  国外用的人还蛮多,驱动程序手动映射器](https://github.com/z175/kdmapper)
+[EfiDump](https://github.com/SamuelTulach/EfiDump)
 
-[kdmapper-1803-1903  --  同上](https://github.com/alxbrn/kdmapper-1803-1903)
+[TDL](https://github.com/hfiref0x/TDL)
 
-[kdmapper  --  这个是Win10的1909版本的](https://github.com/Dark7oveRR/kdmapper)
+[UPGDSED](https://github.com/hfiref0x/UPGDSED)
 
-[Kernel_Driver_Hack  --  见名知意](https://github.com/TheCruZ/Kernel_Driver_Hack)
+[Shark](https://github.com/9176324/Shark)
 
-[ScyllaHide  --  游戏有反调试?那我们就用反反调试!](https://github.com/x64dbg/ScyllaHide)
+[DisableWin10PatchguardPoc](https://github.com/killvxk/DisableWin10PatchguardPoc)
 
-[kernel-read-write-using-ioctl  --  简单的ioctl内核读写](https://github.com/beans42/kernel-read-write-using-ioctl)
+## 内核读写驱动
+[Kernel_Driver_Hack](https://github.com/TheCruZ/Kernel_Driver_Hack)
 
-[efi-memory  --  EFI驱动读写程序](https://github.com/SamuelTulach/efi-memory)
+[kernel-read-write-using-ioctl](https://github.com/beans42/kernel-read-write-using-ioctl)
 
-[EfiGuard  --  禁用PatchGuard和驱动程序签名强制DSE](https://github.com/Mattiwatti/EfiGuard)
+[km-um-communication](https://github.com/alxbrn/km-um-communication)
 
-[EAC Bypass  --  调戏EAC保护的游戏](https://github.com/Schnocker/EAC_dbp)
+[efi-memory](https://github.com/SamuelTulach/efi-memory)
 
-[Kernelmode-manual-mapping-through-IAT  --  不需要创建线程的Dll注入器](https://github.com/mactec0/Kernelmode-manual-mapping-through-IAT)
+[KernelBhop](https://github.com/Zer0Mem0ry/KernelBhop)
 
-[Splendid Implanter  --  告诉你怎么绕过BE](https://github.com/haram/splendid_implanter)
+[EFI_Driver_Access](https://github.com/TheCruZ/EFI_Driver_Access)
 
-[BattlEye  --  绕过BE,堡垒之夜也能用?](https://github.com/Schnocker/NoEye)
+[Kernel-Bridge](https://github.com/HoShiMin/Kernel-Bridge)
 
-[access  --  不需要句柄也能访问游戏进程](https://github.com/btbd/access)
+## DLL注入软件
+[Kernelmode-manual-mapping-through-IAT](https://github.com/mactec0/Kernelmode-manual-mapping-through-IAT)
 
-[modmap  --  模块扩展手动映射器](https://github.com/btbd/modmap)
+[modmap](https://github.com/btbd/modmap)
 
-[drvmap  --  似乎也是一个驱动映射](https://github.com/not-wlan/drvmap)
+[drvmap](https://github.com/not-wlan/drvmap)
 
-[NoBastian  --  一个应用层的绕过例子](https://github.com/mlghuskie/NoBastian)
+[smap](https://github.com/btbd/smap)
 
-[EUPMAccess  --  物理内存的访问](https://github.com/waryas/EUPMAccess/tree/master/EnablePhysicalMemory)
+## 应用层内存读取技巧
+[access](https://github.com/btbd/access)
 
-[KernelBhop  --  驱动级的读写](https://github.com/Zer0Mem0ry/KernelBhop)
+[NoBastian](https://github.com/mlghuskie/NoBastian)
 
-[DSEFix  --  Windows x64驱动程序签名强制替代](https://github.com/hfiref0x/DSEFix)
+[EUPMAccess](https://github.com/waryas/EUPMAccess/tree/master/EnablePhysicalMemory)
 
-[smap  --  DLL手动映射器](https://github.com/btbd/smap)
+[HLeaker](https://github.com/Schnocker/HLeaker)
 
-[HLeaker  -- 一个使用DuplicateHandle的例子](https://github.com/Schnocker/HLeaker)
+[vmread](https://github.com/h33p/vmread)
 
-[vmread  --  ](https://github.com/h33p/vmread)
+## 绕过游戏反调试
+[ScyllaHide](https://github.com/x64dbg/ScyllaHide)
 
-## 相关库
-[nt_wrapper  --  更快更容易更难反编译](https://github.com/JustasMasiulis/nt_wrapper)
+## 帮助库
+[nt_wrapper](https://github.com/JustasMasiulis/nt_wrapper)
 
-[skCrypter  --  C++11的轻量级字符串加密库](https://github.com/skadro-official/skCrypter)
+## 反汇编
+[zydis](https://github.com/zyantific/zydis)
 
-## 过VAC检测
-[VAC Bypass  --  看了一下,用Dll注入Hook相关检测函数](https://github.com/danielkrupinski/VAC-Bypass)
+## 挂钩库
+[HookLib](https://github.com/HoShiMin/HookLib)
 
-[VAC  --  介绍了VAC是如何检测作弊的](https://github.com/danielkrupinski/VAC)
+## 字符串加密
+[skCrypter](https://github.com/skadro-official/skCrypter)
 
-[VAC Bypass Loader  --  启动一个没有VAC的Steam,我尝试不行,可能要稍作调试](https://github.com/danielkrupinski/VAC-Bypass-Loader)
+## 隐藏驱动
+[hidden](https://github.com/JKornev/hidden)
 
-## CS:GO内挂
-[Osiris  --  将近1k个Star,功能齐全,应该蛮多人用的哦](https://github.com/danielkrupinski/Osiris)
+## 绕过BattlEye检测
+[Splendid Implanter](https://github.com/haram/splendid_implanter)
 
-## APEX外挂
-[ApexGaming.py  --  python写的](https://github.com/AnusReaper/ApexGaming.py)
+[BattlEye](https://github.com/Schnocker/NoEye)
 
-[EzApexDMAAimbot  --  APEX辉光自瞄](https://github.com/Y33Tcoder/EzApexDMAAimbot)
+## 绕过EAC检测
+[EAC_dbp](https://github.com/Schnocker/EAC_dbp)
+
+[Eac-Bypass](https://github.com/Flashyyyyyy/Eac-Bypass)
+
+## 绕过VAC检测
+[VAC Bypass](https://github.com/danielkrupinski/VAC-Bypass)
+
+[VAC](https://github.com/danielkrupinski/VAC)
+
+[VAC Bypass Loader](https://github.com/danielkrupinski/VAC-Bypass-Loader)
+
+## CS:GO辅助
+[Osiris](https://github.com/danielkrupinski/Osiris)
+
+[RPM-WPM-project](https://github.com/mikeeek/RPM-WPM-project)
+
+[GarHal_CSGO](https://github.com/dretax/GarHal_CSGO)
+
+[heck_exe](https://github.com/h1ru5/heck_exe)
+
+[wok-csgo-sdk-v2](https://github.com/lagcomp/wok-csgo-sdk-v2)
+
+[SpyExternal1337hax](https://github.com/0TheSpy/SpyExternal1337hax)
+
+
+## R6辅助
+[R6SDK](https://github.com/weak1337/R6SDK)
+
+[Internal-Rainbow-Six-Cheat](https://github.com/NMan1/Internal-Rainbow-Six-Cheat)
+
+## APEX辅助
+[ApexGaming.py](https://github.com/AnusReaper/ApexGaming.py)
+
+[EzApexDMAAimbot](https://github.com/Y33Tcoder/EzApexDMAAimbot)
+
+## GTA5辅助
+[gta5_cheats_1.50](https://github.com/FiYHer/gta5_cheats_1.50)
+
+[pHake](https://github.com/xhz8s/pHake)
+
+[subVerison_GTAV_Hack](https://github.com/AmazingPP/subVerison_GTAV_Hack)
+
+[GTA5_Cheats_Native_Menu](https://github.com/expvintl/GTA5_Cheats_Native_Menu)
 
 ## 相关网站
 
-[一号选手-英文](https://www.unknowncheats.me/forum/index.php):一个国外的辅助论坛，CSGO、使命、APEX、CF.....的源码、地址、偏移、思路.......
+[一号选手 - 英文](https://www.unknowncheats.me/forum/index.php):一个国外的辅助论坛，CSGO、使命、APEX、CF.....的源码、地址、偏移、思路.......
 
-[二号选手-英文](https://guidedhacking.com/)
+[二号选手 - 英文](https://guidedhacking.com/)
 这是一个真正游戏作弊教程网站
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
